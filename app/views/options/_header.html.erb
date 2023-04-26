@@ -1,0 +1,21 @@
+
+     <header class="header" data-controller="hello" >
+      
+
+        <nav class="navbar-header">
+            <a class="index-anch" href="/product/product_index">products</a>
+        </nav>
+
+      <div class="icons"> 
+                <div class="fas fa-bars" id="menu-btn">
+                </div> 
+                <div class="user_btn">
+                  <%= link_to "", user_index_path, :method => :get,  class:"fas fa-user user_btn-link" %> 
+                </div> 
+                <div class="user_btn">
+                  <%= link_to "", logout_path,  :method => :get,  class:"fas fa-sign-out-alt user_btn-link", style: "text-decoration: none" %> 
+                </div> 
+
+        </div>     
+    </header>
+    <!-- header 1 section ends -->
